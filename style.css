@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #904d0038;
+}
+
+.error{ /* apenas para a alidação do jquery */
+    color:rgba(255, 0, 0, 0.8);
+    
+    font-style: italic;
+}
+
+.navbar {
+    background-color: #904d00f3;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #904c00;
+}
+
+.correct-position-indicators {
+    bottom: -650px;
+}
+
+.correct-position {
+    position: relative;
+    bottom: -700px;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.nav-cardapio .nav-link.active:hover,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e0a35e;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.text-colored {
+    color: #904c00;
+}
+
+.carouseil-inner img {
+    width: 100%;
+    height: 680px;
+}
+
+#comodidades,
+#fale-conosco {
+    background-color: #904d0038;
+}
+
+.nav-quartos .nav-link.active,
+#fale-conosco button {
+    background-color: #904c00;
+    color: #fff;
+}
+
+.nav-quartos .nav-link:hover {
+    color: #904c00;
+}
+
+.nav-quartos .nav-link.active:hover {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .correct-position-indicators {
+        bottom: -280px;
+    }
+    
+    .correct-position {
+        position: relative;
+        bottom: -280px;
+    }
+}
